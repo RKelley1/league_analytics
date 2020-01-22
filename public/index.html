@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type="text/css" href="/stylesheets/style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="voicechat">
+        <img src="/images/avatar.jpg" width="200" length="200" alt="avatar"/>
+    </div>
+  </div>
+  <p id="demo">A example paragraph with a javascript example </p>
+  <button type="button" name="button" onclick="myTestFunction()"></button>
+  <script>
+    const myTestFunction = () => {
+      document.getElementById("demo").innerHTML = "paragraph changed.";
+    }
+  </script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+      var socket = io();
+  </script>
+</body>
+</html>
