@@ -1,1 +1,1 @@
-League of Legends Analytics
+Voice Chat Application
